@@ -9,7 +9,7 @@
 ![npm version](https://badge.fury.io/js/yarn.svg)
 </p>
 
-![Screenshot](https://raw.githubusercontent.com/fakhirula/VenturApp/public/assets/img/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/fakhirula/VenturApp/screenshot.png)
 
 ## Installation
 1. Clone this repository or download zip
