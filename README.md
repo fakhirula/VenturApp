@@ -4,8 +4,8 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-green.svg?style=flat-square)](#contributors-)
 ![GitHub last commit](https://img.shields.io/github/last-commit/fakhirula/venturapp.svg)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
-[![License](https://img.shields.io/github/license/fakhirula/venturapp.svg)](LICENSE)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/fakhirula/VenturApp)
+[![License](https://img.shields.io/github/license/fakhirula/VenturApp)](LICENSE)
 ![npm version](https://badge.fury.io/js/yarn.svg)
 </p>
 
