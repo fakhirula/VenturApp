@@ -1,0 +1,29 @@
+$theme-colors: (
+  "primary":    #FFB610,
+  "secondary":  #6D757C,
+  "success":    #AAEA3C,
+  "info":       #0CC2FF,
+  "warning":    #FFDB11,
+  "danger":     #FF7080,
+  "light":      #F9F8FA,
+  "dark":       #212529
+);
+
+
+$pagination-color: #FF8C00;
+
+$pagination-focus-color:            #FF8C00;
+$pagination-focus-outline:          0;
+
+$pagination-active-color: #FFFFFF;
+$pagination-active-bg: #FF8C00;
+$pagination-active-border-color: #FF8C00;
+
+$pagination-hover-color:            #FF8C00;
+$pagination-hover-border-color:     FF8C00;
+
+
+$box-shadow:                  0 .5rem 1rem rgba(#212529, .15);
+
+/* import all bootstrap */
+@import "node_modules/bootstrap/scss/bootstrap.scss";
