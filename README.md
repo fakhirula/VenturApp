@@ -1,5 +1,5 @@
 <h1 align="center">VenturApp Portofolio</h1>
-<p align="center">VenturApp is a Simple Portofolio website built using Bootstrap with some customization. Made with Bootstrap 5.</p>
+<p align="center">VenturApp is a Simple Portofolio website built using Bootstrap with some customization. Please use it for learning media, made using the Bootstrap Framework and customization using SASS.</p>
 <p align="center">
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-green.svg?style=flat-square)](#contributors-)
@@ -16,7 +16,7 @@
 ```bash
 git clone https://github.com/fakhirula/VenturApp
 ```
-2. Open `Venturapp/public/index.html` to see the website
+2. Open `VenturApp/public/index.html` to see the website
 
  ## Contributing
 
