@@ -44,7 +44,7 @@
 
 	<main class="">
 		<!-- Section Home -->
-		<section id="#home" class="" style="background-color: #F8F8F8;">
+		<sect id="#home" class="" style="background-color: #F8F8F8;">
 			<div class="container col-xxl-8 px-4 py-5">
 				<div class="row flex-lg-row-reverse justify-content-center align-items-center g-5 py-5">
 					<div class="col-10 col-sm-8 col-lg-6">
@@ -55,7 +55,7 @@
 							<p class="text-primary fs-6 fw-bold mb-0">In depth documentation of myself</p>
 							<h1 class="display-3 h1 fw-bolder">Hello World!</h1>
 							<h2 class="display-6 fw-bold">My name is Rul</h2>
-							<p class="fs-4">& I am a Programmer and Linux enthusiast</p>
+							<p class="fs-4">& I am a <span class="typed"></span> enthusiast</p>
 						</div>
 						<div class="d-grid gap-2 d-md-flex justify-content-md-start">
 							<a href="#about" class="btn btn-primary btn-lg me-md-2">See More</a>
@@ -64,7 +64,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</sect>
 		<!-- end Section Home -->
 
 		<!-- Section About -->
@@ -545,6 +545,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 	<script>
 	$(document).ready(function() {
 		$('li').click(function() {
@@ -559,6 +560,13 @@
 			$(this).addClass("show");
 		});
 	});
+
+	var typed = new Typed(".typed", {
+        strings: ["Web Developer", "UI/UX Designer", "Linux"],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+    });
 	</script>
 </body>
 </html>
